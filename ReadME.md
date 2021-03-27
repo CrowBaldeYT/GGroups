@@ -10,5 +10,4 @@ Of course it have! It's an easy API where you can do everything like with the Co
   <code class="language-php">
     <?php
        echo "Hallo, Welt\n";
-    ?>
   </code>
