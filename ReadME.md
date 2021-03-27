@@ -10,21 +10,24 @@ Of course it have! It's an easy API where you can do everything like with the Co
 <h2>SubCommands</h2>
 
 /group add [Group] - Add an Group.
+</br>
 /group remove [Group] - Remove an Group.
+</br>
 /group list - List all Groups.
+</br>
 /group format [Format] - Set Chat Format of Group.
+</br>
 /group nametag [Nametag] - Set Nametag Format of Group.
+</br>
 /group set [Player] [Group] - Set Players Group.
+</br>
 /group addperm [Group] [Permission] - Add Permission to Group.
+</br>
 /group removeperm - Remove Permission form Group.
+</br>
 /group default - List all Groups.
 
 <h2>API</h2>
-<h3>Get Provider</h3>
-<pre>
-$api = $this->getServer()->getPluginManager()->getPlugin("GGroups");
-
-$api->getProvider();
-</pre>
+<h4>Look at GGroups.php</h4>
 
 It returns yamlv1 or yamlv2.
