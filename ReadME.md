@@ -25,7 +25,7 @@ Of course it have! It's an easy API where you can do everything like with the Co
 </br>
 /group removeperm - Remove Permission form Group.
 </br>
-/group default - List all Groups.
+/group default - Set default Group.
 
 <h2>API</h2>
 <h4>Look at GGroups.php</h4>
