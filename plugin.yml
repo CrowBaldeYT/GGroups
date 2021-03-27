@@ -1,6 +1,6 @@
 name: GGroups
 main: MDev\GGroups\GGroups
-version: 0.4
+version: 0.5
 author: MDev
 website: https://github.com/MarlonDevPMMP
 api: 3.0.0
@@ -23,5 +23,7 @@ permissions:
         default: op
       ggroups.cmd.removeperm:
         default: op
-      ggroups.cmd.defgroup:
+      ggroups.cmd.default:
         default: op
+      ggroups.cmd.help:
+        default: true
