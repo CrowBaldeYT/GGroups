@@ -23,9 +23,11 @@ Of course it have! It's an easy API where you can do everything like with the Co
 </br>
 /group addperm [Group] [Permission] - Add Permission to Group.
 </br>
-/group removeperm - Remove Permission form Group.
+/group removeperm [Group] [Permission] - Remove Permission form Group.
 </br>
-/group default - Set default Group.
+/group default [Group] - Set default Group.
+</br>
+/group help - Get all Commands.
 
 <h2>API</h2>
 <h4>Look at GGroups.php</h4>
