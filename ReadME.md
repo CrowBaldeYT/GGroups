@@ -12,6 +12,7 @@ Of course it have! It's an easy API where you can do everything like with the Co
 $api = $this->getServer()->getPluginManager()->getPlugin("GGroups");
 
 $api->getProvider();
+?>
 </pre>
 
 It returns yamlv1 or yamlv2.
