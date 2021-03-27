@@ -10,7 +10,6 @@ Of course it have! It's an easy API where you can do everything like with the Co
 ```php
 $api = $this->getServer()->getPluginManager()->getPlugin("GGroups");
 
-$api->getProvider();
-```
+$api->getProvider();```
 
 It returns yamlv1 or yamlv2.
