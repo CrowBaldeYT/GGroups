@@ -679,16 +679,16 @@ class GroupCommand extends Command{
                 $lang = new Config($this->plugin->getDataFolder()."lang.yml", Config::YAML);
 
                 $sender->sendMessage($this->plugin->getPrefix().$lang->get("help-message"));
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." help §8- §7Get all Commands.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." add [Group] - Add an Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." remove [Group] - Remove an Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." list - List all Groups.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." format [Format] - Set Chat Format of Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." nametag [Nametag] - Set Nametag Format of Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." set [Player] [Group] - Set Players Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." addperm [Group] [Permission] - Add Permission to Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." removeperm - Remove Permission form Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." default [Group] - Set default Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." help §8- §7Get all Commands.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." add [Group] - Add an Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." remove [Group] - Remove an Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." list - List all Groups.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." format [Format] - Set Chat Format of Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." nametag [Nametag] - Set Nametag Format of Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." set [Player] [Group] - Set Players Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." addperm [Group] [Permission] - Add Permission to Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." removeperm - Remove Permission form Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." default [Group] - Set default Group.");
 
             } elseif ($this->plugin->getProvider() == "yamlv1") {
                 $groups = new Config($this->plugin->getDataFolder()."groups.yml", Config::YAML);
@@ -696,16 +696,16 @@ class GroupCommand extends Command{
                 $lang = new Config($this->plugin->getDataFolder()."lang.yml", Config::YAML);
 
                 $sender->sendMessage($this->plugin->getPrefix().$lang->get("help-message"));
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." help §8- §7Get all Commands.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." add [Group] - Add an Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." remove [Group] - Remove an Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." list - List all Groups.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." format [Format] - Set Chat Format of Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." nametag [Nametag] - Set Nametag Format of Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." set [Player] [Group] - Set Players Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." addperm [Group] [Permission] - Add Permission to Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." removeperm - Remove Permission form Group.");
-                $sender->sendMessage($this->plugin->getPrefix().str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." default [Group] - Set default Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." help §8- §7Get all Commands.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." add [Group] - Add an Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." remove [Group] - Remove an Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." list - List all Groups.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." format [Format] - Set Chat Format of Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." nametag [Nametag] - Set Nametag Format of Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." set [Player] [Group] - Set Players Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." addperm [Group] [Permission] - Add Permission to Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." removeperm - Remove Permission form Group.");
+                $sender->sendMessage($this->plugin->getPrefix()."/".str_replace("{command}", $this->plugin->getMainCommand(), $lang->get("help-format"))." default [Group] - Set default Group.");
 
             }
 
