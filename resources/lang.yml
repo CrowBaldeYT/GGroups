@@ -79,3 +79,9 @@ defgroup-usage: "§cUsage: /{command} defgroup <Group>"
 defgroup-group-dont-exist: "§cThis Group does not exist."
 
 defgroup-set: "§7Successful set Group §6{group} §7as default."
+
+# Help SubCommand.
+
+help-message: "§7All Commands§8:"
+
+help-format: "§8- §7{command}" # After it comes the Commands.
