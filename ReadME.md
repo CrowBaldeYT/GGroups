@@ -9,8 +9,15 @@ Of course it have! It's an easy API where you can do everything like with the Co
 
 <h2>SubCommands</h2>
 
-<h3>add <Group></h3>
-Create an Group
+/group add [Group] - Add an Group.
+/group remove [Group] - Remove an Group.
+/group list - List all Groups.
+/group format [Format] - Set Chat Format of Group.
+/group nametag [Nametag] - Set Nametag Format of Group.
+/group set [Player] [Group] - Set Players Group.
+/group addperm [Group] [Permission] - Add Permission to Group.
+/group removeperm - Remove Permission form Group.
+/group default - List all Groups.
 
 <h2>API</h2>
 <h3>Get Provider</h3>
