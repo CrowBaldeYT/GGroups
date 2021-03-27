@@ -5,6 +5,8 @@
 GGroups is an Group System specially designed for V Server (KVM, VPS etc...). But you can use it on Game Servers too.
 <h3>Does it have an API?</h3>
 Of course it have! It's an easy API where you can do everything like with the Commands.
+<h3>How to enable Server wide Support?</h3>
+If you have an VPS you can change yamlv1 to yamlv2 in the config.yml. Then it will get saved in an extra Folder in the Home directory.
 
 
 <h2>SubCommands</h2>
