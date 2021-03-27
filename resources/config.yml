@@ -1,0 +1,10 @@
+# Plugin Prefix
+prefix: "§6§lGGroups §r§8» "
+
+# Command Management
+command: "group"
+
+description: "GGroups Main Command"
+
+# Data provider (yamlv1 = plugin_data, yamlv2 = Server wide (VPS only) )
+provider: "yamlv2"
