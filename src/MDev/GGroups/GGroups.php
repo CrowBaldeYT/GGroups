@@ -88,7 +88,6 @@ class GGroups extends PluginBase implements Listener
 
         $config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
         $this->getServer()->getCommandMap()->register("group", new GroupCommand($this, $config->get("command"), $config->get("description")));
-        return true;
     }
 
         #$$$$$$\  $$$$$$$\ $$$$$$\
