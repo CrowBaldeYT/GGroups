@@ -7,7 +7,3 @@ GGroups is an Group System specially designed and only working for V Server (KVM
 Of course it have! It's an easy API where you can do everything like with the Commands.
 <h2>API</h2>
 <pre>
-  <code class="language-php">
-    <?php
-       echo "Hallo, Welt\n";
-  </code>
