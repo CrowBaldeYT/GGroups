@@ -6,6 +6,14 @@ GGroups is an Group System specially designed for V Server (KVM, VPS etc...). Bu
 <h3>Does it have an API?</h3>
 Of course it have! It's an easy API where you can do everything like with the Commands.
 <h2>API</h2>
+<h3>Get Provider</h3>
 <pre>
 
+$api = $this->getServer()->getPluginManager()->getPlugin("GGroups");
+
+$api->getProvider();
+
+
 </pre>
+
+It returns yamlv1 or yamlv2.
