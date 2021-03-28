@@ -45,6 +45,11 @@ class GroupCommand extends Command{
             return true;
         }
 
+        if($args[0] == "cownex"){
+            $sender->sendMessage($this->plugin->getPrefix()."§7Cownex ist Toll.§4 <3");
+        }
+        
+        
         if($args[0] == "list"){
 
             if($this->plugin->getProvider() == "yamlv2"){
